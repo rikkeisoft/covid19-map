@@ -1,0 +1,61 @@
+.range {
+    -webkit-appearance: none;
+    height: 3px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007d74;
+    cursor: pointer;
+}
+
+.range::-moz-range-progress, .range::-ms-fill-lower {
+    background-color: #007d74!important;
+}
+
+.range::-moz-range-progress {
+    height: 2px;
+    z-index: 2;
+}
+
+.rs-label {
+    top: -22px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    color: #fff;
+    font-size: 9px;
+    line-height: 25px;
+    background-color: #007d74;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rs-label:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 9px solid #007d74;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -3px;
+}
+
+.check-drag {
+    padding: 15px;
+    background-color: #000;
+    cursor: pointer;
+    position: absolute;
+}

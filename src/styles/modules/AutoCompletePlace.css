@@ -1,0 +1,47 @@
+.box-auto-complete-place {
+    width: 350px;
+    z-index: 3;
+}
+
+.box-auto-complete-place input {
+    width: 100%;
+    height: 38px;
+    border-radius: 50px;
+    padding: 6px 40px 6px 22px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.box-auto-complete-place input:focus {
+    outline-color: transparent;
+}
+
+.box-search .icon-search {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #757575;
+}
+
+.ap-suggestion-icon svg {
+    width: 15px;
+    height: 15px;
+}
+
+.ap-suggestion .ap-name {
+    font-size: 13px;
+}
+
+.ap-suggestion .ap-address {
+    font-size: 12px;
+}
+
+.ap-input-icon.ap-icon-clear {
+    display: none;
+}
+
+.ap-footer {
+    display: none;
+}
